@@ -79,7 +79,7 @@ class Sign_up2Fragment : Fragment() {
                 var action =Sign_up2FragmentDirections.actionSignUp2FragmentToLoginFragment()
                 findNavController().navigate(action)
             }else{
-                binding.txError.text="Please fill in all information"
+                binding.txError.text="Please fill in all information "
             }
         }
 
